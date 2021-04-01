@@ -1,0 +1,82 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+   background-image: url(./pexels-joshua-welch-1624600.jpg);
+   height: 100vh;
+   width: 100vw;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+section {
+   background-color: transparent;
+   backdrop-filter: blur(10px);
+   min-width: 400px;
+   width: 30%;
+   height: 40%;
+   border-radius: 40px;
+}
+
+.join-header {
+   display: flex;
+   justify-content: center;
+   padding: 35px 0 20px 0;
+   color: #cb8e22;
+   font-size: 1.75rem;
+   border-bottom: 4px solid #282a20;
+}
+
+.user-input {
+   display: flex;
+   flex-direction: column;
+   margin: 15px 25px;
+   font-size: 1.5rem;
+   color: #fff;
+   outline: none;
+}
+
+.user-input label {
+   color: #cb8e22;
+}
+
+.input {
+   background-color:  rgba(0, 0, 0, 0.3);
+   color: #fff;
+   font-size: 1rem;
+   padding: 0.2rem 0.2rem;
+   outline: none;
+   border: 2px solid #282a20;
+}
+
+.input:focus {
+   border: 2px solid #cb8e22;
+}
+
+select option {
+   color: rgba(0, 0, 0, 0.3);
+}
+
+.join-btn {
+   padding: 5px 15px;
+   margin-top: 5px;
+   outline: none;
+   border: none;
+   background-color: hsla(89, 50%, 21%, 0.798);   
+   font-size: 1.1rem;
+   width: 100%;
+   border-radius: 0 0 5px 5px;
+   color: #fff;
+   cursor: pointer;
+}
+
+.join-btn:hover {
+   background-color: #cb8e22;
+}
