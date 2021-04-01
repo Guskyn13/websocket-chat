@@ -20,22 +20,26 @@
       <div class="header">
          <header class="chat-header">
           <h1><i class="fas fa-dice-d20"></i> Chat App</h1>
-          <a href="" class="btn" id="leaveRoom-btn">Leave Room <i class="fas fa-sign-out-alt"></i></a>
+          <div class="leave-btn">
+             <a href="" class="btn" id="leaveRoom-btn">Leave Room <i class="fas fa-sign-out-alt"></i></a>
+          </div>
        </header>
       </div>
-      
-      <div class="chat-sidemenu">
-         <h3>Room Name:</h3>
-         <h2 id="room-name"></h2>
-         <h3><i class="fas fa-users"></i> Users</h3>
-         <ul id="users"></ul>
+
+      <div class="main-chat-menu">
+         <div class="chat-sidemenu">
+            <h2 class="room-title">Room Name</h2>
+            <h3 id="room-name"></h3>
+            <h2 class="users"><i class="fas fa-users"></i> Users</h2>
+            <ul id="users"></ul>
+         </div>
+         <div class="chat-messages"></div>
       </div>
-      <div class="chat-messages"></div>
       
-      <div class="chat-form-container">
+      <div class="chat-message-container">
          <form id="chat-form">
             <input id="msg" type="text" placeholder="Enter Message..." autocomplete="off" required />
-            <button class="btn"><i class="far fa-paper-plane"></i> Send</button>
+            <button class="send-btn"><i class="far fa-paper-plane"></i> Send</button>
          </form>
       </div>
    </div>
